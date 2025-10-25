@@ -1,0 +1,31 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Force scripts to use LF
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Treat source code files as text
+*.java text
+*.js text
+*.ts text
+*.html text
+*.css text
+*.json text
+*.xml text
+*.sql text
+
+# Treat images and binaries as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+
+# Optional: markdown files
+*.md text
+
